@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_dan"
+    tools:context=".MainActivity"
+    >
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/note_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B5C6FF00"
+        android:backgroundTint="#FFEA00"
+        android:padding="10dp"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_note_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        android:tint="@color/design_default_color_primary"
+        app:srcCompat="@android:drawable/ic_input_add">
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
